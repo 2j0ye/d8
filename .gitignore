@@ -1,5 +1,15 @@
 # Ignore configuration files that may contain sensitive information.
 sites/*/*settings*.php
+sites/*/*services*.yml
+
+.csslintrc
+.editorconfig
+.eslintignore
+.eslintrc
+.gitattributes
+autoload.php
+composer.json
+example.gitignore
 
 # Ignore paths that contain generated content.
 files/
@@ -28,10 +38,7 @@ index.php
 install.php
 update.php
 xmlrpc.php
-/includes
-/misc
 /modules
 /profiles
-/scripts
 /themes
 /core
